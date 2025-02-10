@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/form.css" />
   </head>
   <body>
     <header>
@@ -14,6 +15,17 @@
 
     <main>
       <h1>Form</h1>
+      <form class="feedback-form form-js" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </main>
     <script type="module" src="./js/2-form.js"></script>
   </body>
